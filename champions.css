@@ -60,7 +60,7 @@ p.homeup {
 
 }
 
-p.white {color: white}
+p.white {color: white; text-align: center;}
 
 p.articleno {
 	font-size: 130%;
@@ -95,6 +95,18 @@ font-size: 110%;
 	word-wrap: break-all;
 	overflow-wrap: break-word;
 	width: 90%
+}
+p.ednotec {
+font-size: 110%;
+	font-family:'Calibri';
+	text-align: left;
+	line-height: 2;
+	text-indent: 20px;
+	margin-left: 5%;
+	word-wrap: break-all;
+	overflow-wrap: break-word;
+	width: 90%;
+
 }
 
 p.article {
@@ -268,11 +280,9 @@ img.articleimage {
 img.thumb {
 	height: 10%;
 	border: 1px solid black;
-	float: left;
 	margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 10%;
-	display: flex;
+	margin-bottom: 2%;
+
 }
 img.articleimage2 {
 	height: 30%;
@@ -466,9 +476,31 @@ button:hover{
 h2 {
 	font-size: 170%;
 	text-transform: uppercase;
+	margin-left: 5%;
 }
 
 hr {
 	background-color: black;
 	height: 1.5px;
+}
+
+.articleupdate {
+	float: right;
+	margin-right: 5%;}
+	
+		a:link {
+  color:black;  
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;        
+}
+
+a:hover {
+  color: #0b5ed7;           
+}
+
+a:active {
+  color: #003f88;           
 }
