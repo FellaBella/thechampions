@@ -166,7 +166,7 @@ img.homeboximg1 {
 	margin-right: 5%;
 	justify-content:center;
 	display: relative;
-	transition: transform 0.8s ease;
+	transition: transform 2s ease;
 }
 
 	img.homeboximg2 {
@@ -509,6 +509,7 @@ a:active {
 img.homeboximg1:hover {
   transform: scale(1.07);
 }
+
 
 
 
